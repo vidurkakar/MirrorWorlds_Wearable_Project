@@ -1,0 +1,11 @@
+/usr/local/bin/AprilCalib
+/usr/local/bin/AprilCalib.cfg
+/usr/local/bin/AprilTagFinder
+/usr/local/bin/AprilTagFinder.cfg
+/usr/local/bin/AprilTagCreator
+/usr/local/bin/StreamData
+/usr/local/bin/AprilTagFinder.cfg
+/usr/local/bin/RotationLog
+/usr/local/bin/AprilTagFinder.cfg
+/usr/local/bin/Competition1
+/usr/local/bin/AprilTagFinder.cfg

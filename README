@@ -1,0 +1,77 @@
+				cv2cg mini-version for apriltag
+A lightweight library for computer vision and computer graphics interactions.
+
+NOTE: Please see https://sites.google.com/site/moarbots/opencv-and-apriltags#TOC-April-Tags
+for installation instructions (MOARbots help guide)
+
+1. Download Source
+	hg clone https://simba.forrest@code.google.com/p/cv2cg#apriltag apriltag
+	cd apriltag
+
+2. Compile
+
+	2.1 Install Dependency Libraries and Tools
+		OpenCV >=2.2
+		CMake >=2.8
+		
+	2.2 CMake+make in ubuntu (similarly in windows by CMake+VS2008)
+	mkdir build
+	cd build
+	cmake ..
+	make
+	sudo make install
+	
+3. Usage
+	AprilTagFinder url=camera://0
+
+NOTE: Since auto-adding subdirectories wasn't working for Mac and is now disabled,
+you need to manually add them to the CMakeLists.txt at the end, for any new apps
+you add in the applications directory.
+
+#===========================================
+# FOR MacOSX User:
+
+1. Install dependency libraries from Mac Port
+sudo port install pkgconfig eigen3 cmake
+
+2. Install OpenCV (http://opencv.org/downloads.html)
+ - Use cmake and make to successfully build it
+ - Set environment variable CMAKE_PREFIX_PATH in ~/.bash_profile to 
+   point out where your OpenCVConfig.cmake locates, which should be in opencv folder
+   Command:
+     export CMAKE_PREFIX_PATH="/Users/luncheng/data/code/cs799/opencv-2.4.9"
+
+3. Install AprilTag
+   Assume you are within apriltags folder, then
+   Command:
+     mkdir build
+     cd build
+     cmake ..
+
+4. Find your Wixel device name in /dev
+   Command:
+     cd /dev
+
+5. Update your Wixel device name in c code, which is in ./application/StreamData/StreamData.cpp.
+   In line 74, update the DEVICE0, which by default is /dev/cd.usbmodel1411.
+
+6. Go back to apriltags/build folder, then
+   Command:
+     make
+     sudo make install
+   
+7. Execute the program
+ - Plug in your wixel, and make sure the device name is the same as the one you type in in Stream.cpp
+ - Go to applicaiton folder apriltags/build/applicaitons/StreamData
+ - Copy configure file to this folder. 
+   The configure file "AprilTagFinder.cfg", which by default is in apriltags/applications/StreamData
+ - Execute the program
+   Command:
+     ./StreamData
+
+8. Good Luck
+
+
+ L.C.
+ lc@cs.wisc.edu
+

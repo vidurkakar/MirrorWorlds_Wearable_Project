@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vidurkakar/wearable/apriltag2/apriltags
+CMAKE_SOURCE_DIR = /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vidurkakar/wearable/apriltag2/apriltags/build
+CMAKE_BINARY_DIR = /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/apriltag2/apriltags/build/CMakeFiles /home/vidurkakar/wearable/apriltag2/apriltags/build/application/Competition1/CMakeFiles/progress.marks
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(MAKE) -f CMakeFiles/Makefile2 application/Competition1/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/apriltag2/apriltags/build/CMakeFiles 0
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/CMakeFiles /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/application/Competition1/CMakeFiles/progress.marks
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(MAKE) -f CMakeFiles/Makefile2 application/Competition1/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(MAKE) -f CMakeFiles/Makefile2 application/Competition1/clean
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(MAKE) -f CMakeFiles/Makefile2 application/Competition1/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(MAKE) -f CMakeFiles/Makefile2 application/Competition1/preinstall
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(MAKE) -f CMakeFiles/Makefile2 application/Competition1/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(MAKE) -f CMakeFiles/Makefile2 application/Competition1/preinstall
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(MAKE) -f CMakeFiles/Makefile2 application/Competition1/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 application/Competition1/CMakeFiles/Competition1.dir/rule:
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(MAKE) -f CMakeFiles/Makefile2 application/Competition1/CMakeFiles/Competition1.dir/rule
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(MAKE) -f CMakeFiles/Makefile2 application/Competition1/CMakeFiles/Competition1.dir/rule
 .PHONY : application/Competition1/CMakeFiles/Competition1.dir/rule
 
 # Convenience name for target.
@@ -166,7 +166,7 @@ Competition1: application/Competition1/CMakeFiles/Competition1.dir/rule
 
 # fast build rule for target.
 Competition1/fast:
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(MAKE) -f application/Competition1/CMakeFiles/Competition1.dir/build.make application/Competition1/CMakeFiles/Competition1.dir/build
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(MAKE) -f application/Competition1/CMakeFiles/Competition1.dir/build.make application/Competition1/CMakeFiles/Competition1.dir/build
 .PHONY : Competition1/fast
 
 Competition1.o: Competition1.cpp.o
@@ -175,7 +175,7 @@ Competition1.o: Competition1.cpp.o
 
 # target to build an object file
 Competition1.cpp.o:
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(MAKE) -f application/Competition1/CMakeFiles/Competition1.dir/build.make application/Competition1/CMakeFiles/Competition1.dir/Competition1.cpp.o
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(MAKE) -f application/Competition1/CMakeFiles/Competition1.dir/build.make application/Competition1/CMakeFiles/Competition1.dir/Competition1.cpp.o
 .PHONY : Competition1.cpp.o
 
 Competition1.i: Competition1.cpp.i
@@ -184,7 +184,7 @@ Competition1.i: Competition1.cpp.i
 
 # target to preprocess a source file
 Competition1.cpp.i:
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(MAKE) -f application/Competition1/CMakeFiles/Competition1.dir/build.make application/Competition1/CMakeFiles/Competition1.dir/Competition1.cpp.i
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(MAKE) -f application/Competition1/CMakeFiles/Competition1.dir/build.make application/Competition1/CMakeFiles/Competition1.dir/Competition1.cpp.i
 .PHONY : Competition1.cpp.i
 
 Competition1.s: Competition1.cpp.s
@@ -193,7 +193,7 @@ Competition1.s: Competition1.cpp.s
 
 # target to generate assembly for a file
 Competition1.cpp.s:
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(MAKE) -f application/Competition1/CMakeFiles/Competition1.dir/build.make application/Competition1/CMakeFiles/Competition1.dir/Competition1.cpp.s
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(MAKE) -f application/Competition1/CMakeFiles/Competition1.dir/build.make application/Competition1/CMakeFiles/Competition1.dir/Competition1.cpp.s
 .PHONY : Competition1.cpp.s
 
 # Help Target
@@ -223,6 +223,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

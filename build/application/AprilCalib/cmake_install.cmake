@@ -1,4 +1,4 @@
-# Install script for directory: /home/vidurkakar/wearable/apriltag2/apriltags/application/AprilCalib
+# Install script for directory: /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/application/AprilCalib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/AprilCalib"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/vidurkakar/wearable/apriltag2/apriltags/build/application/AprilCalib/AprilCalib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/application/AprilCalib/AprilCalib")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/AprilCalib" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/AprilCalib")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -49,6 +49,6 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE FILE FILES "/home/vidurkakar/wearable/apriltag2/apriltags/application/AprilCalib/AprilCalib.cfg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE FILE FILES "/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/application/AprilCalib/AprilCalib.cfg")
 endif()
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vidurkakar/wearable/apriltag2/apriltags
+CMAKE_SOURCE_DIR = /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vidurkakar/wearable/apriltag2/apriltags/build
+CMAKE_BINARY_DIR = /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build
 
 # Include any dependencies generated for this target.
 include application/Competition1/CMakeFiles/Competition1.dir/depend.make
@@ -59,16 +59,16 @@ include application/Competition1/CMakeFiles/Competition1.dir/flags.make
 
 application/Competition1/CMakeFiles/Competition1.dir/Competition1.cpp.o: application/Competition1/CMakeFiles/Competition1.dir/flags.make
 application/Competition1/CMakeFiles/Competition1.dir/Competition1.cpp.o: ../application/Competition1/Competition1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vidurkakar/wearable/apriltag2/apriltags/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object application/Competition1/CMakeFiles/Competition1.dir/Competition1.cpp.o"
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build/application/Competition1 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Competition1.dir/Competition1.cpp.o -c /home/vidurkakar/wearable/apriltag2/apriltags/application/Competition1/Competition1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object application/Competition1/CMakeFiles/Competition1.dir/Competition1.cpp.o"
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/application/Competition1 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Competition1.dir/Competition1.cpp.o -c /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/application/Competition1/Competition1.cpp
 
 application/Competition1/CMakeFiles/Competition1.dir/Competition1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Competition1.dir/Competition1.cpp.i"
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build/application/Competition1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vidurkakar/wearable/apriltag2/apriltags/application/Competition1/Competition1.cpp > CMakeFiles/Competition1.dir/Competition1.cpp.i
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/application/Competition1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/application/Competition1/Competition1.cpp > CMakeFiles/Competition1.dir/Competition1.cpp.i
 
 application/Competition1/CMakeFiles/Competition1.dir/Competition1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Competition1.dir/Competition1.cpp.s"
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build/application/Competition1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vidurkakar/wearable/apriltag2/apriltags/application/Competition1/Competition1.cpp -o CMakeFiles/Competition1.dir/Competition1.cpp.s
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/application/Competition1 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/application/Competition1/Competition1.cpp -o CMakeFiles/Competition1.dir/Competition1.cpp.s
 
 application/Competition1/CMakeFiles/Competition1.dir/Competition1.cpp.o.requires:
 
@@ -110,8 +110,8 @@ application/Competition1/Competition1: /usr/lib/x86_64-linux-gnu/libopencv_imgpr
 application/Competition1/Competition1: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.9
 application/Competition1/Competition1: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.9
 application/Competition1/Competition1: application/Competition1/CMakeFiles/Competition1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vidurkakar/wearable/apriltag2/apriltags/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Competition1"
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build/application/Competition1 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Competition1.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Competition1"
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/application/Competition1 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Competition1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 application/Competition1/CMakeFiles/Competition1.dir/build: application/Competition1/Competition1
@@ -123,10 +123,10 @@ application/Competition1/CMakeFiles/Competition1.dir/requires: application/Compe
 .PHONY : application/Competition1/CMakeFiles/Competition1.dir/requires
 
 application/Competition1/CMakeFiles/Competition1.dir/clean:
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build/application/Competition1 && $(CMAKE_COMMAND) -P CMakeFiles/Competition1.dir/cmake_clean.cmake
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/application/Competition1 && $(CMAKE_COMMAND) -P CMakeFiles/Competition1.dir/cmake_clean.cmake
 .PHONY : application/Competition1/CMakeFiles/Competition1.dir/clean
 
 application/Competition1/CMakeFiles/Competition1.dir/depend:
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vidurkakar/wearable/apriltag2/apriltags /home/vidurkakar/wearable/apriltag2/apriltags/application/Competition1 /home/vidurkakar/wearable/apriltag2/apriltags/build /home/vidurkakar/wearable/apriltag2/apriltags/build/application/Competition1 /home/vidurkakar/wearable/apriltag2/apriltags/build/application/Competition1/CMakeFiles/Competition1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/application/Competition1 /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/application/Competition1 /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/application/Competition1/CMakeFiles/Competition1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : application/Competition1/CMakeFiles/Competition1.dir/depend
 

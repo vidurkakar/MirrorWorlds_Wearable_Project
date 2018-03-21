@@ -1,4 +1,4 @@
-# Install script for directory: /home/vidurkakar/wearable/apriltag2/apriltags/application/RotationLog
+# Install script for directory: /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/application/RotationLog
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/RotationLog"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/vidurkakar/wearable/apriltag2/apriltags/build/application/RotationLog/RotationLog")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/application/RotationLog/RotationLog")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/RotationLog" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/RotationLog")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -49,6 +49,6 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE FILE FILES "/home/vidurkakar/wearable/apriltag2/apriltags/application/RotationLog/AprilTagFinder.cfg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE FILE FILES "/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/application/RotationLog/AprilTagFinder.cfg")
 endif()
 

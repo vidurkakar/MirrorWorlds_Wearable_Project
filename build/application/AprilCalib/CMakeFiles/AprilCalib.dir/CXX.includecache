@@ -340,7 +340,7 @@ FlyCapture2.h
 
 ../include/singleton.hpp
 
-/home/vidurkakar/wearable/apriltag2/apriltags/application/AprilCalib/AprilCalib.cpp
+/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/application/AprilCalib/AprilCalib.cpp
 iostream
 -
 string
@@ -350,11 +350,11 @@ fstream
 sstream
 -
 AllHelpers.h
-/home/vidurkakar/wearable/apriltag2/apriltags/application/AprilCalib/AllHelpers.h
+/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/application/AprilCalib/AllHelpers.h
 apriltag/apriltag.hpp
-/home/vidurkakar/wearable/apriltag2/apriltags/application/AprilCalib/apriltag/apriltag.hpp
+/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/application/AprilCalib/apriltag/apriltag.hpp
 apriltag/TagFamilyFactory.hpp
-/home/vidurkakar/wearable/apriltag2/apriltags/application/AprilCalib/apriltag/TagFamilyFactory.hpp
+/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/application/AprilCalib/apriltag/TagFamilyFactory.hpp
 
 include/cv2cgConfig.h
 

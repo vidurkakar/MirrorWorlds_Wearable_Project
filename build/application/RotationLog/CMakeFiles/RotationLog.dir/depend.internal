@@ -36,6 +36,6 @@ application/RotationLog/CMakeFiles/RotationLog.dir/RotationLog.cpp.o
  ../include/config.hpp
  ../include/flycap2opencv.hpp
  ../include/singleton.hpp
- /home/vidurkakar/wearable/apriltag2/apriltags/application/RotationLog/RotationLog.cpp
+ /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/application/RotationLog/RotationLog.cpp
  /usr/include/fcntl.h
  include/cv2cgConfig.h

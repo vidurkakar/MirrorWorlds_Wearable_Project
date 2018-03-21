@@ -1,4 +1,4 @@
-# Install script for directory: /home/vidurkakar/wearable/apriltag2/apriltags
+# Install script for directory: /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,12 +34,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/vidurkakar/wearable/apriltag2/apriltags/build/application/AprilCalib/cmake_install.cmake")
-  include("/home/vidurkakar/wearable/apriltag2/apriltags/build/application/AprilTagFinder/cmake_install.cmake")
-  include("/home/vidurkakar/wearable/apriltag2/apriltags/build/application/AprilTagCreator/cmake_install.cmake")
-  include("/home/vidurkakar/wearable/apriltag2/apriltags/build/application/StreamData/cmake_install.cmake")
-  include("/home/vidurkakar/wearable/apriltag2/apriltags/build/application/RotationLog/cmake_install.cmake")
-  include("/home/vidurkakar/wearable/apriltag2/apriltags/build/application/Competition1/cmake_install.cmake")
+  include("/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/application/AprilCalib/cmake_install.cmake")
+  include("/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/application/AprilTagFinder/cmake_install.cmake")
+  include("/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/application/AprilTagCreator/cmake_install.cmake")
+  include("/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/application/StreamData/cmake_install.cmake")
+  include("/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/application/RotationLog/cmake_install.cmake")
+  include("/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/application/Competition1/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/vidurkakar/wearable/apriltag2/apriltags/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

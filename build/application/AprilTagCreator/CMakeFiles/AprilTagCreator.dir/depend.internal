@@ -36,5 +36,5 @@ application/AprilTagCreator/CMakeFiles/AprilTagCreator.dir/AprilTagCreator.cpp.o
  ../include/config.hpp
  ../include/flycap2opencv.hpp
  ../include/singleton.hpp
- /home/vidurkakar/wearable/apriltag2/apriltags/application/AprilTagCreator/AprilTagCreator.cpp
+ /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/application/AprilTagCreator/AprilTagCreator.cpp
  include/cv2cgConfig.h

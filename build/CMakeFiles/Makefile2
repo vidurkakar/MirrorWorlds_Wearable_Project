@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vidurkakar/wearable/apriltag2/apriltags
+CMAKE_SOURCE_DIR = /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vidurkakar/wearable/apriltag2/apriltags/build
+CMAKE_BINARY_DIR = /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/uninstall.dir
@@ -66,14 +66,14 @@ CMAKE_BINARY_DIR = /home/vidurkakar/wearable/apriltag2/apriltags/build
 CMakeFiles/uninstall.dir/all:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vidurkakar/wearable/apriltag2/apriltags/build/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/apriltag2/apriltags/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/apriltag2/apriltags/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -116,7 +116,7 @@ application/AprilCalib/preinstall:
 application/AprilCalib/CMakeFiles/AprilCalib.dir/all:
 	$(MAKE) -f application/AprilCalib/CMakeFiles/AprilCalib.dir/build.make application/AprilCalib/CMakeFiles/AprilCalib.dir/depend
 	$(MAKE) -f application/AprilCalib/CMakeFiles/AprilCalib.dir/build.make application/AprilCalib/CMakeFiles/AprilCalib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vidurkakar/wearable/apriltag2/apriltags/build/CMakeFiles --progress-num=1,2 "Built target AprilCalib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/CMakeFiles --progress-num=1,2 "Built target AprilCalib"
 .PHONY : application/AprilCalib/CMakeFiles/AprilCalib.dir/all
 
 # Include target in all.
@@ -126,9 +126,9 @@ all: application/AprilCalib/CMakeFiles/AprilCalib.dir/all
 
 # Build rule for subdir invocation for target.
 application/AprilCalib/CMakeFiles/AprilCalib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/apriltag2/apriltags/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 application/AprilCalib/CMakeFiles/AprilCalib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/apriltag2/apriltags/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/CMakeFiles 0
 .PHONY : application/AprilCalib/CMakeFiles/AprilCalib.dir/rule
 
 # Convenience name for target.
@@ -171,7 +171,7 @@ application/AprilTagFinder/preinstall:
 application/AprilTagFinder/CMakeFiles/AprilTagFinder.dir/all:
 	$(MAKE) -f application/AprilTagFinder/CMakeFiles/AprilTagFinder.dir/build.make application/AprilTagFinder/CMakeFiles/AprilTagFinder.dir/depend
 	$(MAKE) -f application/AprilTagFinder/CMakeFiles/AprilTagFinder.dir/build.make application/AprilTagFinder/CMakeFiles/AprilTagFinder.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vidurkakar/wearable/apriltag2/apriltags/build/CMakeFiles --progress-num=5,6 "Built target AprilTagFinder"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/CMakeFiles --progress-num=5,6 "Built target AprilTagFinder"
 .PHONY : application/AprilTagFinder/CMakeFiles/AprilTagFinder.dir/all
 
 # Include target in all.
@@ -181,9 +181,9 @@ all: application/AprilTagFinder/CMakeFiles/AprilTagFinder.dir/all
 
 # Build rule for subdir invocation for target.
 application/AprilTagFinder/CMakeFiles/AprilTagFinder.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/apriltag2/apriltags/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 application/AprilTagFinder/CMakeFiles/AprilTagFinder.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/apriltag2/apriltags/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/CMakeFiles 0
 .PHONY : application/AprilTagFinder/CMakeFiles/AprilTagFinder.dir/rule
 
 # Convenience name for target.
@@ -226,7 +226,7 @@ application/AprilTagCreator/preinstall:
 application/AprilTagCreator/CMakeFiles/AprilTagCreator.dir/all:
 	$(MAKE) -f application/AprilTagCreator/CMakeFiles/AprilTagCreator.dir/build.make application/AprilTagCreator/CMakeFiles/AprilTagCreator.dir/depend
 	$(MAKE) -f application/AprilTagCreator/CMakeFiles/AprilTagCreator.dir/build.make application/AprilTagCreator/CMakeFiles/AprilTagCreator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vidurkakar/wearable/apriltag2/apriltags/build/CMakeFiles --progress-num=3,4 "Built target AprilTagCreator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/CMakeFiles --progress-num=3,4 "Built target AprilTagCreator"
 .PHONY : application/AprilTagCreator/CMakeFiles/AprilTagCreator.dir/all
 
 # Include target in all.
@@ -236,9 +236,9 @@ all: application/AprilTagCreator/CMakeFiles/AprilTagCreator.dir/all
 
 # Build rule for subdir invocation for target.
 application/AprilTagCreator/CMakeFiles/AprilTagCreator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/apriltag2/apriltags/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 application/AprilTagCreator/CMakeFiles/AprilTagCreator.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/apriltag2/apriltags/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/CMakeFiles 0
 .PHONY : application/AprilTagCreator/CMakeFiles/AprilTagCreator.dir/rule
 
 # Convenience name for target.
@@ -281,7 +281,7 @@ application/StreamData/preinstall:
 application/StreamData/CMakeFiles/StreamData.dir/all:
 	$(MAKE) -f application/StreamData/CMakeFiles/StreamData.dir/build.make application/StreamData/CMakeFiles/StreamData.dir/depend
 	$(MAKE) -f application/StreamData/CMakeFiles/StreamData.dir/build.make application/StreamData/CMakeFiles/StreamData.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vidurkakar/wearable/apriltag2/apriltags/build/CMakeFiles --progress-num=11,12 "Built target StreamData"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/CMakeFiles --progress-num=11,12 "Built target StreamData"
 .PHONY : application/StreamData/CMakeFiles/StreamData.dir/all
 
 # Include target in all.
@@ -291,9 +291,9 @@ all: application/StreamData/CMakeFiles/StreamData.dir/all
 
 # Build rule for subdir invocation for target.
 application/StreamData/CMakeFiles/StreamData.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/apriltag2/apriltags/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 application/StreamData/CMakeFiles/StreamData.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/apriltag2/apriltags/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/CMakeFiles 0
 .PHONY : application/StreamData/CMakeFiles/StreamData.dir/rule
 
 # Convenience name for target.
@@ -336,7 +336,7 @@ application/RotationLog/preinstall:
 application/RotationLog/CMakeFiles/RotationLog.dir/all:
 	$(MAKE) -f application/RotationLog/CMakeFiles/RotationLog.dir/build.make application/RotationLog/CMakeFiles/RotationLog.dir/depend
 	$(MAKE) -f application/RotationLog/CMakeFiles/RotationLog.dir/build.make application/RotationLog/CMakeFiles/RotationLog.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vidurkakar/wearable/apriltag2/apriltags/build/CMakeFiles --progress-num=9,10 "Built target RotationLog"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/CMakeFiles --progress-num=9,10 "Built target RotationLog"
 .PHONY : application/RotationLog/CMakeFiles/RotationLog.dir/all
 
 # Include target in all.
@@ -346,9 +346,9 @@ all: application/RotationLog/CMakeFiles/RotationLog.dir/all
 
 # Build rule for subdir invocation for target.
 application/RotationLog/CMakeFiles/RotationLog.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/apriltag2/apriltags/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 application/RotationLog/CMakeFiles/RotationLog.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/apriltag2/apriltags/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/CMakeFiles 0
 .PHONY : application/RotationLog/CMakeFiles/RotationLog.dir/rule
 
 # Convenience name for target.
@@ -391,7 +391,7 @@ application/Competition1/preinstall:
 application/Competition1/CMakeFiles/Competition1.dir/all:
 	$(MAKE) -f application/Competition1/CMakeFiles/Competition1.dir/build.make application/Competition1/CMakeFiles/Competition1.dir/depend
 	$(MAKE) -f application/Competition1/CMakeFiles/Competition1.dir/build.make application/Competition1/CMakeFiles/Competition1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vidurkakar/wearable/apriltag2/apriltags/build/CMakeFiles --progress-num=7,8 "Built target Competition1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/CMakeFiles --progress-num=7,8 "Built target Competition1"
 .PHONY : application/Competition1/CMakeFiles/Competition1.dir/all
 
 # Include target in all.
@@ -401,9 +401,9 @@ all: application/Competition1/CMakeFiles/Competition1.dir/all
 
 # Build rule for subdir invocation for target.
 application/Competition1/CMakeFiles/Competition1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/apriltag2/apriltags/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 application/Competition1/CMakeFiles/Competition1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/apriltag2/apriltags/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/CMakeFiles 0
 .PHONY : application/Competition1/CMakeFiles/Competition1.dir/rule
 
 # Convenience name for target.

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vidurkakar/wearable/apriltag2/apriltags
+CMAKE_SOURCE_DIR = /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vidurkakar/wearable/apriltag2/apriltags/build
+CMAKE_BINARY_DIR = /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build
 
 # Include any dependencies generated for this target.
 include application/RotationLog/CMakeFiles/RotationLog.dir/depend.make
@@ -59,16 +59,16 @@ include application/RotationLog/CMakeFiles/RotationLog.dir/flags.make
 
 application/RotationLog/CMakeFiles/RotationLog.dir/RotationLog.cpp.o: application/RotationLog/CMakeFiles/RotationLog.dir/flags.make
 application/RotationLog/CMakeFiles/RotationLog.dir/RotationLog.cpp.o: ../application/RotationLog/RotationLog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vidurkakar/wearable/apriltag2/apriltags/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object application/RotationLog/CMakeFiles/RotationLog.dir/RotationLog.cpp.o"
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build/application/RotationLog && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RotationLog.dir/RotationLog.cpp.o -c /home/vidurkakar/wearable/apriltag2/apriltags/application/RotationLog/RotationLog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object application/RotationLog/CMakeFiles/RotationLog.dir/RotationLog.cpp.o"
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/application/RotationLog && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RotationLog.dir/RotationLog.cpp.o -c /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/application/RotationLog/RotationLog.cpp
 
 application/RotationLog/CMakeFiles/RotationLog.dir/RotationLog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RotationLog.dir/RotationLog.cpp.i"
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build/application/RotationLog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vidurkakar/wearable/apriltag2/apriltags/application/RotationLog/RotationLog.cpp > CMakeFiles/RotationLog.dir/RotationLog.cpp.i
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/application/RotationLog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/application/RotationLog/RotationLog.cpp > CMakeFiles/RotationLog.dir/RotationLog.cpp.i
 
 application/RotationLog/CMakeFiles/RotationLog.dir/RotationLog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RotationLog.dir/RotationLog.cpp.s"
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build/application/RotationLog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vidurkakar/wearable/apriltag2/apriltags/application/RotationLog/RotationLog.cpp -o CMakeFiles/RotationLog.dir/RotationLog.cpp.s
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/application/RotationLog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/application/RotationLog/RotationLog.cpp -o CMakeFiles/RotationLog.dir/RotationLog.cpp.s
 
 application/RotationLog/CMakeFiles/RotationLog.dir/RotationLog.cpp.o.requires:
 
@@ -110,8 +110,8 @@ application/RotationLog/RotationLog: /usr/lib/x86_64-linux-gnu/libopencv_imgproc
 application/RotationLog/RotationLog: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.9
 application/RotationLog/RotationLog: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.9
 application/RotationLog/RotationLog: application/RotationLog/CMakeFiles/RotationLog.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vidurkakar/wearable/apriltag2/apriltags/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable RotationLog"
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build/application/RotationLog && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RotationLog.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable RotationLog"
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/application/RotationLog && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RotationLog.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 application/RotationLog/CMakeFiles/RotationLog.dir/build: application/RotationLog/RotationLog
@@ -123,10 +123,10 @@ application/RotationLog/CMakeFiles/RotationLog.dir/requires: application/Rotatio
 .PHONY : application/RotationLog/CMakeFiles/RotationLog.dir/requires
 
 application/RotationLog/CMakeFiles/RotationLog.dir/clean:
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build/application/RotationLog && $(CMAKE_COMMAND) -P CMakeFiles/RotationLog.dir/cmake_clean.cmake
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/application/RotationLog && $(CMAKE_COMMAND) -P CMakeFiles/RotationLog.dir/cmake_clean.cmake
 .PHONY : application/RotationLog/CMakeFiles/RotationLog.dir/clean
 
 application/RotationLog/CMakeFiles/RotationLog.dir/depend:
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vidurkakar/wearable/apriltag2/apriltags /home/vidurkakar/wearable/apriltag2/apriltags/application/RotationLog /home/vidurkakar/wearable/apriltag2/apriltags/build /home/vidurkakar/wearable/apriltag2/apriltags/build/application/RotationLog /home/vidurkakar/wearable/apriltag2/apriltags/build/application/RotationLog/CMakeFiles/RotationLog.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/application/RotationLog /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/application/RotationLog /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/application/RotationLog/CMakeFiles/RotationLog.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : application/RotationLog/CMakeFiles/RotationLog.dir/depend
 

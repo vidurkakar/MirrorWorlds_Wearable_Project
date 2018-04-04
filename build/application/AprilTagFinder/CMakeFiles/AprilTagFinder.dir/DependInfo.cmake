@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/vidurkakar/wearable/apriltag2/apriltags/application/AprilTagFinder/AprilTagFinder.cpp" "/home/vidurkakar/wearable/apriltag2/apriltags/build/application/AprilTagFinder/CMakeFiles/AprilTagFinder.dir/AprilTagFinder.cpp.o"
+  "/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/application/AprilTagFinder/AprilTagFinder.cpp" "/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/application/AprilTagFinder/CMakeFiles/AprilTagFinder.dir/AprilTagFinder.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

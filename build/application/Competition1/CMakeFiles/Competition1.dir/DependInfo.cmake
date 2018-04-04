@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/vidurkakar/wearable/apriltag2/apriltags/application/Competition1/Competition1.cpp" "/home/vidurkakar/wearable/apriltag2/apriltags/build/application/Competition1/CMakeFiles/Competition1.dir/Competition1.cpp.o"
+  "/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/application/Competition1/Competition1.cpp" "/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/application/Competition1/CMakeFiles/Competition1.dir/Competition1.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

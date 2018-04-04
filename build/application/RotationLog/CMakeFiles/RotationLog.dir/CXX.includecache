@@ -340,7 +340,7 @@ FlyCapture2.h
 
 ../include/singleton.hpp
 
-/home/vidurkakar/wearable/apriltag2/apriltags/application/RotationLog/RotationLog.cpp
+/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/application/RotationLog/RotationLog.cpp
 iostream
 -
 string
@@ -376,11 +376,11 @@ unistd.h
 cstdlib
 -
 AllHelpers.h
-/home/vidurkakar/wearable/apriltag2/apriltags/application/RotationLog/AllHelpers.h
+/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/application/RotationLog/AllHelpers.h
 apriltag/apriltag.hpp
-/home/vidurkakar/wearable/apriltag2/apriltags/application/RotationLog/apriltag/apriltag.hpp
+/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/application/RotationLog/apriltag/apriltag.hpp
 apriltag/TagFamilyFactory.hpp
-/home/vidurkakar/wearable/apriltag2/apriltags/application/RotationLog/apriltag/TagFamilyFactory.hpp
+/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/application/RotationLog/apriltag/TagFamilyFactory.hpp
 sys/time.h
 -
 

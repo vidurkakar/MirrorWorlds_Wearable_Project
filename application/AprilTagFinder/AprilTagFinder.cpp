@@ -477,8 +477,8 @@ int main(const int argc, const char **argv )
 
 	AprilTagprocessor processor;
 	processor.isPhoto = is->isClass<helper::ImageSource_Photo>();
-	//processor.outputDir = cfg.get("outputDir", is->getSourceDir());
-	processor.outputDir = "/home/vidurkakar/wearable/apriltag2/apriltags/application/outputDir";
+	processor.outputDir = cfg.get("outputDir", is->getSourceDir());
+	//processor.outputDir = "/home/vidurkakar/wearable/apriltag2/apriltags/application/outputDir";
 	logli("[main] detection will be logged to outputDir="<<processor.outputDir);
 	is->run(processor,-1, false,
 		cfg.get<bool>("ImageSource:pause", is->getPause()),

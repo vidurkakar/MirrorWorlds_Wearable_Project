@@ -36,5 +36,5 @@ application/AprilTagFinder/CMakeFiles/AprilTagFinder.dir/AprilTagFinder.cpp.o
  ../include/config.hpp
  ../include/flycap2opencv.hpp
  ../include/singleton.hpp
- /home/vidurkakar/wearable/apriltag2/apriltags/application/AprilTagFinder/AprilTagFinder.cpp
+ /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/application/AprilTagFinder/AprilTagFinder.cpp
  include/cv2cgConfig.h

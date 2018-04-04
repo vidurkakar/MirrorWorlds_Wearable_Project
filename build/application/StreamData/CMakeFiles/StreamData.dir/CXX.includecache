@@ -340,7 +340,7 @@ FlyCapture2.h
 
 ../include/singleton.hpp
 
-/home/vidurkakar/wearable/apriltag2/apriltags/application/StreamData/StreamData.cpp
+/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/application/StreamData/StreamData.cpp
 iostream
 -
 string
@@ -372,11 +372,11 @@ cstdlib
 time.h
 -
 AllHelpers.h
-/home/vidurkakar/wearable/apriltag2/apriltags/application/StreamData/AllHelpers.h
+/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/application/StreamData/AllHelpers.h
 apriltag/apriltag.hpp
-/home/vidurkakar/wearable/apriltag2/apriltags/application/StreamData/apriltag/apriltag.hpp
+/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/application/StreamData/apriltag/apriltag.hpp
 apriltag/TagFamilyFactory.hpp
-/home/vidurkakar/wearable/apriltag2/apriltags/application/StreamData/apriltag/TagFamilyFactory.hpp
+/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/application/StreamData/apriltag/TagFamilyFactory.hpp
 sys/time.h
 -
 

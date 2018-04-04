@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vidurkakar/wearable/apriltag2/apriltags
+CMAKE_SOURCE_DIR = /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vidurkakar/wearable/apriltag2/apriltags/build
+CMAKE_BINARY_DIR = /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build
 
 # Utility rule file for uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/vidurkakar/wearable/apriltag2/apriltags/build
 include CMakeFiles/uninstall.dir/progress.make
 
 CMakeFiles/uninstall:
-	/usr/bin/cmake -P /home/vidurkakar/wearable/apriltag2/apriltags/build/cmake_uninstall.cmake
+	/usr/bin/cmake -P /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/cmake_uninstall.cmake
 
 uninstall: CMakeFiles/uninstall
 uninstall: CMakeFiles/uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vidurkakar/wearable/apriltag2/apriltags /home/vidurkakar/wearable/apriltag2/apriltags /home/vidurkakar/wearable/apriltag2/apriltags/build /home/vidurkakar/wearable/apriltag2/apriltags/build /home/vidurkakar/wearable/apriltag2/apriltags/build/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

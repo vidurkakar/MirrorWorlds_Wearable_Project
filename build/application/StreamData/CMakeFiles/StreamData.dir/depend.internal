@@ -36,6 +36,6 @@ application/StreamData/CMakeFiles/StreamData.dir/StreamData.cpp.o
  ../include/config.hpp
  ../include/flycap2opencv.hpp
  ../include/singleton.hpp
- /home/vidurkakar/wearable/apriltag2/apriltags/application/StreamData/StreamData.cpp
+ /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/application/StreamData/StreamData.cpp
  /usr/include/fcntl.h
  include/cv2cgConfig.h

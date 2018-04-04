@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vidurkakar/wearable/apriltag2/apriltags
+CMAKE_SOURCE_DIR = /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vidurkakar/wearable/apriltag2/apriltags/build
+CMAKE_BINARY_DIR = /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/apriltag2/apriltags/build/CMakeFiles /home/vidurkakar/wearable/apriltag2/apriltags/build/application/AprilTagCreator/CMakeFiles/progress.marks
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(MAKE) -f CMakeFiles/Makefile2 application/AprilTagCreator/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/apriltag2/apriltags/build/CMakeFiles 0
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/CMakeFiles /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/application/AprilTagCreator/CMakeFiles/progress.marks
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(MAKE) -f CMakeFiles/Makefile2 application/AprilTagCreator/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(MAKE) -f CMakeFiles/Makefile2 application/AprilTagCreator/clean
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(MAKE) -f CMakeFiles/Makefile2 application/AprilTagCreator/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(MAKE) -f CMakeFiles/Makefile2 application/AprilTagCreator/preinstall
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(MAKE) -f CMakeFiles/Makefile2 application/AprilTagCreator/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(MAKE) -f CMakeFiles/Makefile2 application/AprilTagCreator/preinstall
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(MAKE) -f CMakeFiles/Makefile2 application/AprilTagCreator/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 application/AprilTagCreator/CMakeFiles/AprilTagCreator.dir/rule:
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(MAKE) -f CMakeFiles/Makefile2 application/AprilTagCreator/CMakeFiles/AprilTagCreator.dir/rule
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(MAKE) -f CMakeFiles/Makefile2 application/AprilTagCreator/CMakeFiles/AprilTagCreator.dir/rule
 .PHONY : application/AprilTagCreator/CMakeFiles/AprilTagCreator.dir/rule
 
 # Convenience name for target.
@@ -166,7 +166,7 @@ AprilTagCreator: application/AprilTagCreator/CMakeFiles/AprilTagCreator.dir/rule
 
 # fast build rule for target.
 AprilTagCreator/fast:
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(MAKE) -f application/AprilTagCreator/CMakeFiles/AprilTagCreator.dir/build.make application/AprilTagCreator/CMakeFiles/AprilTagCreator.dir/build
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(MAKE) -f application/AprilTagCreator/CMakeFiles/AprilTagCreator.dir/build.make application/AprilTagCreator/CMakeFiles/AprilTagCreator.dir/build
 .PHONY : AprilTagCreator/fast
 
 AprilTagCreator.o: AprilTagCreator.cpp.o
@@ -175,7 +175,7 @@ AprilTagCreator.o: AprilTagCreator.cpp.o
 
 # target to build an object file
 AprilTagCreator.cpp.o:
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(MAKE) -f application/AprilTagCreator/CMakeFiles/AprilTagCreator.dir/build.make application/AprilTagCreator/CMakeFiles/AprilTagCreator.dir/AprilTagCreator.cpp.o
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(MAKE) -f application/AprilTagCreator/CMakeFiles/AprilTagCreator.dir/build.make application/AprilTagCreator/CMakeFiles/AprilTagCreator.dir/AprilTagCreator.cpp.o
 .PHONY : AprilTagCreator.cpp.o
 
 AprilTagCreator.i: AprilTagCreator.cpp.i
@@ -184,7 +184,7 @@ AprilTagCreator.i: AprilTagCreator.cpp.i
 
 # target to preprocess a source file
 AprilTagCreator.cpp.i:
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(MAKE) -f application/AprilTagCreator/CMakeFiles/AprilTagCreator.dir/build.make application/AprilTagCreator/CMakeFiles/AprilTagCreator.dir/AprilTagCreator.cpp.i
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(MAKE) -f application/AprilTagCreator/CMakeFiles/AprilTagCreator.dir/build.make application/AprilTagCreator/CMakeFiles/AprilTagCreator.dir/AprilTagCreator.cpp.i
 .PHONY : AprilTagCreator.cpp.i
 
 AprilTagCreator.s: AprilTagCreator.cpp.s
@@ -193,7 +193,7 @@ AprilTagCreator.s: AprilTagCreator.cpp.s
 
 # target to generate assembly for a file
 AprilTagCreator.cpp.s:
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(MAKE) -f application/AprilTagCreator/CMakeFiles/AprilTagCreator.dir/build.make application/AprilTagCreator/CMakeFiles/AprilTagCreator.dir/AprilTagCreator.cpp.s
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(MAKE) -f application/AprilTagCreator/CMakeFiles/AprilTagCreator.dir/build.make application/AprilTagCreator/CMakeFiles/AprilTagCreator.dir/AprilTagCreator.cpp.s
 .PHONY : AprilTagCreator.cpp.s
 
 # Help Target
@@ -223,6 +223,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

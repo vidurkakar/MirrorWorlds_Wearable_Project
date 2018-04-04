@@ -6,5 +6,5 @@ CXX_FLAGS = -Wall -Wextra -Wno-unused-parameter -O3 -DNDEBUG
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/include/opencv -I/home/vidurkakar/wearable/apriltag2/apriltags/build/include -I/home/vidurkakar/OpenCV/opencv-2.4.9/modules/nonfree/include -I/home/vidurkakar/wearable/apriltag2/apriltags/include -I/home/vidurkakar/wearable/apriltag2/apriltags/build/application/Competition1 
+CXX_INCLUDES = -I/usr/include/opencv -I/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/include -I/home/vidurkakar/OpenCV/opencv-2.4.9/modules/nonfree/include -I/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/include -I/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/application/Competition1 
 

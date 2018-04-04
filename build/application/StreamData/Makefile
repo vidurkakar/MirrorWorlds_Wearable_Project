@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vidurkakar/wearable/apriltag2/apriltags
+CMAKE_SOURCE_DIR = /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vidurkakar/wearable/apriltag2/apriltags/build
+CMAKE_BINARY_DIR = /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/apriltag2/apriltags/build/CMakeFiles /home/vidurkakar/wearable/apriltag2/apriltags/build/application/StreamData/CMakeFiles/progress.marks
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(MAKE) -f CMakeFiles/Makefile2 application/StreamData/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/apriltag2/apriltags/build/CMakeFiles 0
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/CMakeFiles /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/application/StreamData/CMakeFiles/progress.marks
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(MAKE) -f CMakeFiles/Makefile2 application/StreamData/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(MAKE) -f CMakeFiles/Makefile2 application/StreamData/clean
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(MAKE) -f CMakeFiles/Makefile2 application/StreamData/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(MAKE) -f CMakeFiles/Makefile2 application/StreamData/preinstall
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(MAKE) -f CMakeFiles/Makefile2 application/StreamData/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(MAKE) -f CMakeFiles/Makefile2 application/StreamData/preinstall
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(MAKE) -f CMakeFiles/Makefile2 application/StreamData/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 application/StreamData/CMakeFiles/StreamData.dir/rule:
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(MAKE) -f CMakeFiles/Makefile2 application/StreamData/CMakeFiles/StreamData.dir/rule
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(MAKE) -f CMakeFiles/Makefile2 application/StreamData/CMakeFiles/StreamData.dir/rule
 .PHONY : application/StreamData/CMakeFiles/StreamData.dir/rule
 
 # Convenience name for target.
@@ -166,7 +166,7 @@ StreamData: application/StreamData/CMakeFiles/StreamData.dir/rule
 
 # fast build rule for target.
 StreamData/fast:
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(MAKE) -f application/StreamData/CMakeFiles/StreamData.dir/build.make application/StreamData/CMakeFiles/StreamData.dir/build
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(MAKE) -f application/StreamData/CMakeFiles/StreamData.dir/build.make application/StreamData/CMakeFiles/StreamData.dir/build
 .PHONY : StreamData/fast
 
 StreamData.o: StreamData.cpp.o
@@ -175,7 +175,7 @@ StreamData.o: StreamData.cpp.o
 
 # target to build an object file
 StreamData.cpp.o:
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(MAKE) -f application/StreamData/CMakeFiles/StreamData.dir/build.make application/StreamData/CMakeFiles/StreamData.dir/StreamData.cpp.o
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(MAKE) -f application/StreamData/CMakeFiles/StreamData.dir/build.make application/StreamData/CMakeFiles/StreamData.dir/StreamData.cpp.o
 .PHONY : StreamData.cpp.o
 
 StreamData.i: StreamData.cpp.i
@@ -184,7 +184,7 @@ StreamData.i: StreamData.cpp.i
 
 # target to preprocess a source file
 StreamData.cpp.i:
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(MAKE) -f application/StreamData/CMakeFiles/StreamData.dir/build.make application/StreamData/CMakeFiles/StreamData.dir/StreamData.cpp.i
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(MAKE) -f application/StreamData/CMakeFiles/StreamData.dir/build.make application/StreamData/CMakeFiles/StreamData.dir/StreamData.cpp.i
 .PHONY : StreamData.cpp.i
 
 StreamData.s: StreamData.cpp.s
@@ -193,7 +193,7 @@ StreamData.s: StreamData.cpp.s
 
 # target to generate assembly for a file
 StreamData.cpp.s:
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(MAKE) -f application/StreamData/CMakeFiles/StreamData.dir/build.make application/StreamData/CMakeFiles/StreamData.dir/StreamData.cpp.s
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(MAKE) -f application/StreamData/CMakeFiles/StreamData.dir/build.make application/StreamData/CMakeFiles/StreamData.dir/StreamData.cpp.s
 .PHONY : StreamData.cpp.s
 
 # Help Target
@@ -223,6 +223,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vidurkakar/wearable/apriltag2/apriltags
+CMAKE_SOURCE_DIR = /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vidurkakar/wearable/apriltag2/apriltags/build
+CMAKE_BINARY_DIR = /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build
 
 # Include any dependencies generated for this target.
 include application/AprilTagFinder/CMakeFiles/AprilTagFinder.dir/depend.make
@@ -59,16 +59,16 @@ include application/AprilTagFinder/CMakeFiles/AprilTagFinder.dir/flags.make
 
 application/AprilTagFinder/CMakeFiles/AprilTagFinder.dir/AprilTagFinder.cpp.o: application/AprilTagFinder/CMakeFiles/AprilTagFinder.dir/flags.make
 application/AprilTagFinder/CMakeFiles/AprilTagFinder.dir/AprilTagFinder.cpp.o: ../application/AprilTagFinder/AprilTagFinder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vidurkakar/wearable/apriltag2/apriltags/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object application/AprilTagFinder/CMakeFiles/AprilTagFinder.dir/AprilTagFinder.cpp.o"
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build/application/AprilTagFinder && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagFinder.dir/AprilTagFinder.cpp.o -c /home/vidurkakar/wearable/apriltag2/apriltags/application/AprilTagFinder/AprilTagFinder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object application/AprilTagFinder/CMakeFiles/AprilTagFinder.dir/AprilTagFinder.cpp.o"
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/application/AprilTagFinder && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AprilTagFinder.dir/AprilTagFinder.cpp.o -c /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/application/AprilTagFinder/AprilTagFinder.cpp
 
 application/AprilTagFinder/CMakeFiles/AprilTagFinder.dir/AprilTagFinder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AprilTagFinder.dir/AprilTagFinder.cpp.i"
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build/application/AprilTagFinder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vidurkakar/wearable/apriltag2/apriltags/application/AprilTagFinder/AprilTagFinder.cpp > CMakeFiles/AprilTagFinder.dir/AprilTagFinder.cpp.i
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/application/AprilTagFinder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/application/AprilTagFinder/AprilTagFinder.cpp > CMakeFiles/AprilTagFinder.dir/AprilTagFinder.cpp.i
 
 application/AprilTagFinder/CMakeFiles/AprilTagFinder.dir/AprilTagFinder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AprilTagFinder.dir/AprilTagFinder.cpp.s"
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build/application/AprilTagFinder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vidurkakar/wearable/apriltag2/apriltags/application/AprilTagFinder/AprilTagFinder.cpp -o CMakeFiles/AprilTagFinder.dir/AprilTagFinder.cpp.s
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/application/AprilTagFinder && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/application/AprilTagFinder/AprilTagFinder.cpp -o CMakeFiles/AprilTagFinder.dir/AprilTagFinder.cpp.s
 
 application/AprilTagFinder/CMakeFiles/AprilTagFinder.dir/AprilTagFinder.cpp.o.requires:
 
@@ -110,8 +110,8 @@ application/AprilTagFinder/AprilTagFinder: /usr/lib/x86_64-linux-gnu/libopencv_i
 application/AprilTagFinder/AprilTagFinder: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.9
 application/AprilTagFinder/AprilTagFinder: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.9
 application/AprilTagFinder/AprilTagFinder: application/AprilTagFinder/CMakeFiles/AprilTagFinder.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vidurkakar/wearable/apriltag2/apriltags/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable AprilTagFinder"
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build/application/AprilTagFinder && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AprilTagFinder.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable AprilTagFinder"
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/application/AprilTagFinder && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AprilTagFinder.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 application/AprilTagFinder/CMakeFiles/AprilTagFinder.dir/build: application/AprilTagFinder/AprilTagFinder
@@ -123,10 +123,10 @@ application/AprilTagFinder/CMakeFiles/AprilTagFinder.dir/requires: application/A
 .PHONY : application/AprilTagFinder/CMakeFiles/AprilTagFinder.dir/requires
 
 application/AprilTagFinder/CMakeFiles/AprilTagFinder.dir/clean:
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build/application/AprilTagFinder && $(CMAKE_COMMAND) -P CMakeFiles/AprilTagFinder.dir/cmake_clean.cmake
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/application/AprilTagFinder && $(CMAKE_COMMAND) -P CMakeFiles/AprilTagFinder.dir/cmake_clean.cmake
 .PHONY : application/AprilTagFinder/CMakeFiles/AprilTagFinder.dir/clean
 
 application/AprilTagFinder/CMakeFiles/AprilTagFinder.dir/depend:
-	cd /home/vidurkakar/wearable/apriltag2/apriltags/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vidurkakar/wearable/apriltag2/apriltags /home/vidurkakar/wearable/apriltag2/apriltags/application/AprilTagFinder /home/vidurkakar/wearable/apriltag2/apriltags/build /home/vidurkakar/wearable/apriltag2/apriltags/build/application/AprilTagFinder /home/vidurkakar/wearable/apriltag2/apriltags/build/application/AprilTagFinder/CMakeFiles/AprilTagFinder.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/application/AprilTagFinder /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/application/AprilTagFinder /home/vidurkakar/wearable/MirrorWorlds_Wearable_Project/build/application/AprilTagFinder/CMakeFiles/AprilTagFinder.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : application/AprilTagFinder/CMakeFiles/AprilTagFinder.dir/depend
 

@@ -1,16 +1,47 @@
 import os
 from math import atan2,degrees
+import json
+import random
+import sys
+import io
 
+
+#Takes a concatenated csv, merges with naquora so that only the relevant calls are included, rewrites the csv and writes the json
+
+def createJSON(fileName, x_c, y_c, ID, theta_val):
+#filename = "expenditure_person_location_35199_HIDs_1280_days_.csv"
+    filename = str(fileName)
+    data = {}
+    data['ID'] = str(ID)
+    data['cameraID'] = 1
+    data['origin'] = {}
+    data['origin']['x'] = None
+    data['origin']['y'] = None
+    data['origin']['z'] = None
+
+    data['orientation'] = {}
+    data['orientation']['x'] = str(x_c)
+    data['orientation']['y'] = str(y_c)
+    data['orientation']['z'] = None
+    data['orientation']['theta'] = str(theta_val)
+    data['FrameNum'] = fileName
+
+    fName = fileName[:-2] + '_tag_' + str(ID) + '.json'
+
+    with open(fName, 'w') as f:
+	json.dump(data, f)
+
+ 
 def GetAngleOfLineBetweenTwoPoints(p1, p2):
     xDiff = p2[0] - p1[0]
     yDiff = p2[1] - p1[1]
     return degrees(atan2(yDiff, xDiff))
 
 if __name__ == "__main__":
-
+    count = 0
     fileNames = []
     for fNames in os.listdir("."):
-        if 'log' in fNames:
+        if ('log' in fNames) and ('.m' in fNames):
 	    fileNames.append(fNames)
 
 
@@ -63,23 +94,20 @@ if __name__ == "__main__":
 		cxy_val = []
 		
 	fileVal.close()
-	newName = f.replace('.m','_data.txt')
-	newFile = open(newName, 'w')
 	for k in dataVal.keys():
 	    midPtx = float((dataVal[k][1][0] + dataVal[k][2][0])/2)
     	    midPty = float((dataVal[k][1][1] + dataVal[k][2][1])/2)
 	    pt1 = (midPtx, midPty)
     	    pt2 = (dataVal[k][3][0] , dataVal[k][3][1])
     	    dataVal[k]['theta'] = GetAngleOfLineBetweenTwoPoints(pt1, pt2)
-			
-
+	    createJSON(f, dataVal[k][3][0], dataVal[k][3][1], k, dataVal[k]['theta'])	   
+ 
+	    ## Write the below in JSON
 	    dataToWrite = 'ID: ' + str(k) + '\n'
 	    dataToWrite += 'X: ' + str(dataVal[k][3][0]) + '\n'
 	    dataToWrite += 'Y: ' + str(dataVal[k][3][1]) + '\n'
 	    dataToWrite += 'theta: ' + str(dataVal[k]['theta']) + '\n'
-	    newFile.write(dataToWrite)
-
-	newFile.close()
+	    
 	
 		
 		

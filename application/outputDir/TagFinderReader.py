@@ -1,3 +1,4 @@
+from __future__ import division
 import os
 from math import atan2,degrees
 import json
@@ -8,23 +9,44 @@ import io
 
 #Takes a concatenated csv, merges with naquora so that only the relevant calls are included, rewrites the csv and writes the json
 
+offX = -2.8
+offZ = 16.65
+
 def createJSON(fileName, x_c, y_c, ID, theta_val):
 #filename = "expenditure_person_location_35199_HIDs_1280_days_.csv"
     filename = str(fileName)
+    frameNum = fileName.split('_')[2]
+    frameNum = int(frameNum.split('.')[0])
     data = {}
-    data['ID'] = str(ID)
-    data['cameraID'] = 1
+    #data['age'] = 'OLD'
+    #data['connectionType'] = 'DATASOURCE'
+    data['id'] = str(ID)
+    #data['cameraID'] = 1
+    offset_X = (5.02/1360)
+    offset_Z = (6.94/1488)
     data['origin'] = {}
-    data['origin']['x'] = None
-    data['origin']['y'] = None
-    data['origin']['z'] = None
+    data['origin']['x'] = (y_c * offset_X) + offX
+    data['origin']['y'] = 2.78
+    data['origin']['z'] = (x_c * offset_Z) + offZ
 
     data['orientation'] = {}
-    data['orientation']['x'] = str(x_c)
-    data['orientation']['y'] = str(y_c)
-    data['orientation']['z'] = None
+    #data['orientation']['x'] = str(x_c)
+    #data['orientation']['y'] = str(y_c)
+    #data['orientation']['z'] = None
     data['orientation']['theta'] = str(theta_val)
-    data['FrameNum'] = fileName
+    #data['source'] = 'OPENCV'
+    #data['updateTime'] = 0
+    #data['creationTime'] = 0
+    #data['boundingBox'] = {}
+    #data['boundingBox']['x'] = 232
+    #data['boundingBox']['y'] = 327
+    #data['boundingBox']['width'] = 210 
+    #data['boundingBox']['height'] = 210
+    #data['boundingBox']['image_width'] = 800
+    #data['boundingBox']['image_height'] = 650
+    #data['boundingBox']['blobarea'] = 29137.5
+
+    #data['FrameNum'] = frameNum
 
     fName = fileName[:-2] + '_tag_' + str(ID) + '.json'
 
@@ -40,7 +62,9 @@ def GetAngleOfLineBetweenTwoPoints(p1, p2):
 if __name__ == "__main__":
     count = 0
     fileNames = []
-    for fNames in os.listdir("."):
+    fileList = os.listdir(".")
+    fileList.sort()
+    for fNames in fileList:
         if ('log' in fNames) and ('.m' in fNames):
 	    fileNames.append(fNames)
 

@@ -48,7 +48,7 @@ def createJSON(fileName, x_c, y_c, ID, theta_val):
 
     #data['FrameNum'] = frameNum
 
-    fName = fileName[:-2] + '_tag_' + str(ID) + '.json'
+    fName = 'AprilTagFinder_log_' + str(frameNum) + '_tag_' + str(ID) + '.json'
 
     with open(fName, 'w') as f:
 	json.dump(data, f)
